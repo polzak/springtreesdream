@@ -39,20 +39,30 @@
 	}
 
 	footer p a {
-		text-decoration: none;;
+		text-decoration: none;
+		color: yellow;
+	}
+
+	header {
+		background-color: #DED4A8;
+		text-align: center;
+		padding: 20px 0;
 	}
 
 </style>
 
 <div class="wrapper">
+	<header>
+		<img src="spring-trees-logo-300.png" alt="trees and cats">
+	</header>
 	<nav>
-		<Nav {segment}/>
+		<!-- <Nav {segment}/> -->
 	</nav>
 	<main>
 		<slot></slot>
 	</main>
 	<footer>
 		<p><a href="http://www.podbbang.com/ch/11200">지상 최대의 영어 작전 팟캐스트</a></p>
-		<p>봄나무가 꾸는 꿈 Spring Trees Dream</p>
+		<p>봄나무가 꾸는 꿈 - Spring Trees Dream</p>
 	</footer>
 </div>

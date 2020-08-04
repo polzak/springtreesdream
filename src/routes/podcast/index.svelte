@@ -23,10 +23,10 @@
 </style>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>팟캐스트</title>
 </svelte:head>
 
-<h1>Recent posts</h1>
+<h1>최신 방송</h1>
 
 <ul>
 	{#each people as p, i}

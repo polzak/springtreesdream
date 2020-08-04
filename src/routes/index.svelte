@@ -34,6 +34,8 @@
 
 <svelte:head>
 	<title>지상 최대의 영어 작전</title>
+	<meta name="description" content="팟캐스트 지상 최대의 영어 작전 홈페이지" />
+	<meta name="keywords" content="영어 학습 팟캐스트"/>
 </svelte:head>
 
 <h1>지상 최대의 영어 작전</h1>
