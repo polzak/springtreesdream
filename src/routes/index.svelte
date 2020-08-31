@@ -17,12 +17,22 @@
 
 	img {
 		width: 100%;
-		max-width: 400px;
+		max-width: 960px;
 		margin: 0 0 1em 0;
 	}
 
 	p {
 		margin: 1em auto;
+	}
+
+	.logo-btn {
+		background-color: cornflowerblue;
+		padding: 0.5em;
+		color: white;
+		width: 30%;
+		text-align: center;
+		margin: auto;
+		font-size: 1.6rem;
 	}
 
 	@media (min-width: 480px) {
@@ -38,11 +48,15 @@
 	<meta name="keywords" content="영어 학습 팟캐스트"/>
 </svelte:head>
 
-<h1>지상 최대의 영어 작전</h1>
-
 <figure>
-	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>영어를 향해 돌격!</figcaption>
+	<a href="http://www.podbbang.com/ch/11200">
+		<img alt='Podcast screenshot' src='podcast-logo.jpg'>
+	</a>
+	<figcaption>'지상 최대의 영어 작전'은 '봄나무가 꾸는 꿈'의 대표 팟캐스트입니다.</figcaption>
 </figure>
 
-<p><strong>팟캐스트 '지상 최대의 영어 작전' 홈페이지입니다.</strong></p>
+<div class="logo-btn">
+	<a href="http://www.podbbang.com/ch/11200">
+		팟캐스트 바로 가기
+	</a>
+</div>

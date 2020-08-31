@@ -55,14 +55,15 @@
 	<header>
 		<img src="spring-trees-logo-300.png" alt="trees and cats">
 	</header>
-	<nav>
-		<!-- <Nav {segment}/> -->
-	</nav>
+	<!-- <nav>
+		<Nav {segment}/>
+	</nav> -->
 	<main>
 		<slot></slot>
 	</main>
 	<footer>
-		<p><a href="http://www.podbbang.com/ch/11200">지상 최대의 영어 작전 팟캐스트</a></p>
-		<p>봄나무가 꾸는 꿈 - Spring Trees Dream</p>
+		<!-- <p><a href="http://www.podbbang.com/ch/11200">지상 최대의 영어 작전 팟캐스트</a></p> -->
+		<p>봄나무가 꾸는 꿈</p>
+		<p>Spring Trees Dream</p>
 	</footer>
 </div>
