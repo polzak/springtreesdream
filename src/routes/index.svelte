@@ -35,9 +35,9 @@
 		font-size: 1.6rem;
 	}
 
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
+	@media (max-width: 800px) {
+		.logo-btn {
+			width: 80%;
 		}
 	}
 </style>
@@ -46,6 +46,15 @@
 	<title>지상 최대의 영어 작전</title>
 	<meta name="description" content="팟캐스트 지상 최대의 영어 작전 홈페이지" />
 	<meta name="keywords" content="영어 학습 팟캐스트"/>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45888586-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-45888586-1');
+	</script>
 </svelte:head>
 
 <figure>
