@@ -58,6 +58,7 @@
 	<!-- <nav>
 		<Nav {segment}/>
 	</nav> -->
+	<!-- ctrl+/ -->
 	<main>
 		<slot></slot>
 	</main>
